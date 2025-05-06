@@ -13,10 +13,12 @@ export default defineConfig({
       },
     },
   },
+  publicDir: 'public',
   server: {
     port: 5173
   },
   preview: {
-    port: 10000
+    port: 10000,
+    host: true
   }
 }) 
